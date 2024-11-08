@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: black;
+    
+}
+.main {
+
+    background-image: url(assist/images/bg.jpg2.jpg);
+    background-position: center center;
+    height: 90vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.40;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    height: 60px;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    position: relative;
+    z-index: 9;
+    color: red;
+}
+
+nav button {
+    position: relative;
+    z-index: 9;
+}
+
+
+
+.btn2 {
+   padding:10px 10px ;
+    background-color: red;
+    border-style: none;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 2px solid red;
+}
+
+.Eng {
+    padding: 10px 10px;
+    background: transparent;
+    color: white;
+    border-color: red;
+    border-radius: 7px;
+  outline: none;
+}
+
+
+.login{
+    height: 500px;
+    width: 430px;
+    background-color:black;
+    position: relative;
+    left: 80vh;
+    top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+form{
+    padding: 30px;
+}
+.fom{
+    width: 18vw;
+    padding: 13px ;
+    border: none;
+    outline: none;
+    background-color: rgb(146, 140, 140);
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 5px; 
+    color: white;
+}
+.btn{
+    padding: 11px 115px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+
+}
+
+.text{
+    display: flex;
+    position: relative;
+    right: 57px;
+    top: -9px;
+    font-family: sans-serif;
+
+}
+.need{
+    position: relative;
+    left: 110px;
+    font-family: sans-serif;
+}
+
+.foot{
+    font-family: sans-serif;
+    padding: 15px;
+}
